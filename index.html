@@ -20,7 +20,14 @@
     <!-- Custom styles for this template -->
     <link href="assets/css/justified-nav.css" rel="stylesheet">
 
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!-- Icons -->
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
+
+    <!-- Scripts -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="assets/js/backstretch.js"></script>
+
 
 </head>
 
@@ -29,10 +36,19 @@
 
     body {
         font-family: 'Montserrat';
-        background-image: url("assets/img/symphony.png");
+        background-image: url("http://dl.dropbox.com/u/515046/www/garfield-interior.jpg");
     }
 
+
+    .jumbotron i{
+
+        margin: 8px;
+
+    }
 </style>
+<script>
+    $.backstretch("http://dl.dropbox.com/u/515046/www/garfield-interior.jpg");
+</script>
 <div class="container">
 
     <!-- The justified navigation menu is meant for single line per list item.
@@ -55,7 +71,7 @@
     <div class="jumbotron">
         <h1>Marketing stuff!</h1>
         <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.</p>
-        <p><a class="btn btn-lg btn-success" href="#" role="button">Get started today</a></p>
+        <p><a class="btn btn-lg btn-success" href="#" role="button"><i class="ion-ios-flame"></i> Get started today</a></p>
     </div>
 
     <!-- Example row of columns -->
